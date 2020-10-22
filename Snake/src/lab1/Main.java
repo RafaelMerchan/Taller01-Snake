@@ -21,7 +21,7 @@ public class Main {
 
 		// pack() will do the layout of the window so it gets the correct size
 		frame.pack();
-
+   
 		// Open the window
 		frame.setVisible(true);
 		frame.requestFocus();
