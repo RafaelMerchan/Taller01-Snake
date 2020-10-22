@@ -63,12 +63,12 @@ public class GUIView extends JPanel {
 
 		// Create a new button on that panel and add a StartGameListener as
 		// listener on that button
-		this.startGameButton = new JButton("Juegar");
+		this.startGameButton = new JButton("Go");// Change the text
 		this.startGameButton.addActionListener(new StartGameListener());
 		this.guiPanel.add(this.startGameButton);
 
 		// Create a new choice on the panel, and add all available games
-		this.gameChooser = new JComboBox(this.gameFactory.getGameNames());
+		this.gameChooser = new JComboBox(this.gameFactory.getGameNames());                
 		this.guiPanel.add(this.gameChooser);
 
 		// Add both the new panel and the GameView to myself
@@ -109,5 +109,5 @@ public class GUIView extends JPanel {
 				GUIView.this.gameView.requestFocus();
 			}
 		}
-	}
+	}                
 }
