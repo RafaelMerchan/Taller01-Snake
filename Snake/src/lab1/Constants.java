@@ -1,5 +1,6 @@
 package lab1;
 //prueba
+//prueba2
 
 import java.awt.Dimension;
 
